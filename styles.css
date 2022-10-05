@@ -1,0 +1,68 @@
+body {
+    background: palegoldenrod;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.response{
+    color: black;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.response-card{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3 );
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 40px;
+    white-space: pre-line;
+}
+
+.add-word-card{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    width: 750px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3 );
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 40px;
+    white-space: pre-line;
+}
+
+.addToDictionaryButton{
+    margin-left: 20px;
+}
+
+.wordInput{
+    margin-right: 10px;
+    height: 30px;
+    width: 280px;
+}
+
+.search-bar{
+    width: 20%;
+    display: block;
+    background-color: whitesmoke;
+    padding: 3px;
+    margin: auto;
+    margin-top: 10px;
+}
+.submit-button{
+    size: 300px;
+    display: block;
+    margin: auto;
+    padding: 3px;
+    margin-top: 8px;
+}
